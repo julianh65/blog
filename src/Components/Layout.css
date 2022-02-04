@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "ArticulatCF-Bold";
+  src: local("ArticulatCF-Bold"),
+    url(../fonts/ArticulatCF-Bold.woff) format("woff");
+}
+
+h1 {
+  font-family: "ArticulatCF-Bold";
+  font-size: 7rem;
+}

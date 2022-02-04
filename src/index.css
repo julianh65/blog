@@ -1,10 +1,22 @@
+@font-face {
+  font-family: "Alata-Regular";
+  src: local("Alata-Regular"), url(./fonts/Alata-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "ArticulatCF-Bold";
+  src: local("ArticulatCF-Bold"),
+    url(./fonts/ArticulatCF-Bold.woff) format("woff");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Alata-Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(60, 105, 63);
+  color: rgb(245, 245, 245);
+  position: relative;
 }
 
 code {

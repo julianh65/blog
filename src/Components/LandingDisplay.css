@@ -1,0 +1,7 @@
+h1 {
+  font-family: "ArticulatCF-Bold";
+}
+.ken_img {
+  z-index: -1;
+  filter: brightness(60%);
+}

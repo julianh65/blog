@@ -4,17 +4,13 @@ import "./LandingDisplay.css";
 
 function LandingDisplay() {
     return (
-        <div class="flex min-h-50%">
-            <div class="w-1/2 min-h-full z-10">
-                <div class="flex items-center h-full p-20">
-                    <h1 class=" text-8xl lg:text-7xl md:text-6xl sm:text-5xl text-4xl font-bold leading-none -mr-32 mb-1">Julian's Blog</h1>
-                </div>
-            </div>
-            <div class="w-1/2 min-h-full lg:w-1/2">
-                <img class=" max-w-full object-cover ken_img shadow-lg -ml-32" src={image}></img>
-            </div>
-
+        <div class="min-w-full text-center flex justify-center items-center h-full flex-col pb-12">
+            <h1 class="lg:text-7xl md:text-6xl sm:text-5xl text-4xl leading-none mb-10">
+                Julian's Blog
+            </h1>
+            <h2 class="text-2xl text-center">A blog about technology and my thoughts</h2>
         </div>
+
     )
 
 }
@@ -22,7 +18,3 @@ function LandingDisplay() {
 export default LandingDisplay;
 
 
-//    <div class="grid">
-// <h1 class="z-10 lg:text-8xl md:text-7xl sm:text-6xl text-5xl color">Julian's Blog</h1>
-// <img class=" object-cover ken_img shadow-lg" src={image}></img>
-// </div>);

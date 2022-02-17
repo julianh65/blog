@@ -6,8 +6,8 @@ const Header = () => {
 
     return (
         <nav className='flex text-xl'>
-            <Link to='/' className="pl-8 text-lg">Home</Link>
-            <Link to='/' className="pl-8 text-lg">About</Link>
+            <Link to='/' className="text-xl">Home</Link>
+            <Link to='/About' className="pl-8 text-xl">About</Link>
 
         </nav>
     );
